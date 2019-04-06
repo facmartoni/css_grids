@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pinterest</title>
+    <style>
+        .container{
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, 250px);
+            gap: 5px; 
+            justify-content: center; 
+        }
+
+        .item{
+            border-radius: 5px;
+            padding: 10px;
+            background: #f2f2f2; 
+        }
+
+        .item img{
+            max-width: 100%;
+        }
+
+        .level_1{
+            grid-row-end: span 1;
+        }
+
+        .level_2{
+            grid-row-end: span 2;
+        }
+
+        .level_3{
+            grid-row-end: span 3;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item level_1">
+            <img src="images/house.jpg" alt="">
+        </div>
+        <div class="item level_2">
+            <img src="images/tshirt.jpg" alt="">
+        </div>
+        <div class="item level_3">
+            <img src="images/landing.webp" alt="">
+        </div>
+        <div class="item level_1">
+            <img src="images/house.jpg" alt="">
+        </div>
+        <div class="item level_2">
+            <img src="images/tshirt.jpg" alt="">
+        </div>
+        <div class="item level_3">
+            <img src="images/landing.webp" alt="">
+        </div>
+        <div class="item level_1">
+            <img src="images/house.jpg" alt="">
+        </div>
+        <div class="item level_2">
+            <img src="images/tshirt.jpg" alt="">
+        </div>
+        <div class="item level_3">
+            <img src="images/landing.webp" alt="">
+        </div>
+        <div class="item level_1">
+            <img src="images/house.jpg" alt="">
+        </div>
+        <div class="item level_2">
+            <img src="images/tshirt.jpg" alt="">
+        </div>
+        <div class="item level_3">
+            <img src="images/landing.webp" alt="">
+        </div>
+    </div>
+</body>
+</html>
